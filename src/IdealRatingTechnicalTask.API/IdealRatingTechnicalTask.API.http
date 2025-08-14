@@ -1,0 +1,6 @@
+@IdealRatingTechnicalTask.API_HostAddress = http://localhost:5237
+
+GET {{IdealRatingTechnicalTask.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
