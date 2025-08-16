@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4613eb65-ad6c-4e5f-90b1-bec98c0b41ae</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
