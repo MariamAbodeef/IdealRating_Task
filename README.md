@@ -107,9 +107,11 @@ cd IdealRating_Task/src/IdealRatingTechnicalTask.API
 
 ### 3. Database Migration
 ```bash
+# Install dotnet ef (if not exists)
+dotnet tool install --global dotnet-ef
 
 # Add migration (if not already exists)
-dotnet ef migrations add InitialCreate
+dotnet ef migrations add InitialCreate --project ..\IdealRatingTechnicalTask.Infrastructure
 
 # Update database
 dotnet ef database update
