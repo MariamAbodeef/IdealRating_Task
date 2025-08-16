@@ -23,8 +23,17 @@ builder.Services.AddScoped<IPersonRepo, PersonRepo>();
 builder.Services.AddScoped<IPersonExcelReader, PersonExcelReader>();
 builder.Services.AddScoped<ICompositePersonService, CompositePersonService>();
 builder.Services.AddScoped<IPersonService, PersonService>();
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 var app = builder.Build();
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
