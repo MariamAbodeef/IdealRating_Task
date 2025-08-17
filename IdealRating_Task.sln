@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdealRatingTechnicalTask.Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdealRatingTechnicalTask.Application", "src\IdealRatingTechnicalTask.Application\IdealRatingTechnicalTask.Application.csproj", "{DDD731B3-998B-4D9E-A7B8-1AB6D9A656A6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EA8BECB2-901C-4C25-84A6-61F6A14623B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdealRatingTechnicalTask.Tests", "IdealRatingTechnicalTask.Tests\IdealRatingTechnicalTask.Tests.csproj", "{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{DDD731B3-998B-4D9E-A7B8-1AB6D9A656A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDD731B3-998B-4D9E-A7B8-1AB6D9A656A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDD731B3-998B-4D9E-A7B8-1AB6D9A656A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +52,6 @@ Global
 		{6120888C-ED6B-4460-8244-E741E9BF885A} = {C0EB754E-1A73-42EA-BB06-A91A8FCED4B1}
 		{8A936C4D-C138-400B-973F-39C97DCA495C} = {C0EB754E-1A73-42EA-BB06-A91A8FCED4B1}
 		{DDD731B3-998B-4D9E-A7B8-1AB6D9A656A6} = {C0EB754E-1A73-42EA-BB06-A91A8FCED4B1}
+		{3CF5FCBA-04B0-4A02-BF7F-8DFF306510FE} = {EA8BECB2-901C-4C25-84A6-61F6A14623B6}
 	EndGlobalSection
 EndGlobal
